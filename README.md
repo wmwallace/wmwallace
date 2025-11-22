@@ -1,10 +1,25 @@
-- 👋 Hi, I’m @Leewallace017
-- 👀 I’m interested in Data
-- 🌱 I’m currently learning R
-- 💞️ I’m looking to collaborate on Data Analyses 
-- 📫 How to reach me leewallace017@gmail.com
+👋 Hi, I’m William Wallace
 
-<!---
-Leewallace017/Leewallace017 is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
+Data • Systems • Public Safety • Analytics
+
+I work across data, technology, and research to build tools that improve decision-making and public safety. My work often involves dashboards, mapping, automation, and large datasets. I like solving operational problems and creating systems that are clear, efficient, and scalable.
+
+What I’m focused on
+
+• Data analytics and visualization
+• GIS mapping and spatial analysis
+• System design and workflow automation
+• Survey design, evaluation, and public safety research
+• Process improvement and modernizing legacy systems
+
+Other interests
+
+• Photography
+• EV technology
+• Fitness and health
+• Tech, gaming, and automation
+
+Contact
+
+Email: leewallace017@gmail.com
+
