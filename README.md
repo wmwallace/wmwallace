@@ -21,5 +21,5 @@ Other interests
 
 Contact
 
-Email: leewallace017@gmail.com
+Email: Contact@williamlwallace.com
 
