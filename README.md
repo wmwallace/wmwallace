@@ -57,30 +57,13 @@ Sleep prevention so long agent runs do not die when the Mac idles. Built on a si
 
 ### [Trendy Tech Tribe](https://trendytechtribe.com)
 
-A technology publication covering AI, semiconductors, EVs, energy, and markets. Designed, built, and operated solo. The site is the surface; the pipeline underneath is the engineering.
-
-```mermaid
-flowchart LR
-    A[Research] --> B[Draft]
-    B --> C{Multi-model<br/>fact-check gate}
-    C -->|fails| B
-    C -->|passes| D[Localize<br/>13 languages]
-    D --> E[Build<br/>static + search index]
-    E --> F[Distribute<br/>social · IndexNow · Bing]
-    F --> G[Monitor<br/>link-rot sweep]
-    G -->|sources decayed| B
-
-    style C fill:#09090b,stroke:#00f0ff,stroke-width:2px,color:#00f0ff
-    style G fill:#09090b,stroke:#00f0ff,stroke-width:2px,color:#00f0ff
-```
-
-The two cyan nodes are the parts I care about most. The gate blocks anything that fails cross-model verification. The monitor re-checks published work as its sources rot, and sends decayed articles back for rewrite.
+A technology publication covering AI, semiconductors, EVs, energy, and markets. Designed, built, and operated solo. The site is the surface; the engineering is everything holding it up.
 
 | | |
 |---|---|
 | **Architecture** | Static and serverless on Astro, Vercel, and PostgreSQL with a self-hosted search index, chosen to run at near-zero fixed cost |
-| **Toolchain** | 40+ command line tasks covering publishing, verification, translation, and distribution |
-| **Reach** | Structured data, news sitemaps, IndexNow and Bing submission, 13-language localization |
+| **Scale** | 13 languages, full-text search, PWA, automated multi-channel distribution |
+| **Reach** | Structured data, news sitemaps, and search-console analysis driving discovery |
 | **Revenue** | Display and affiliate monetization, with consent management and disclosure compliance |
 
 ### [williamlwallace.com](https://williamlwallace.com)
