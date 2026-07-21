@@ -1,4 +1,4 @@
-<img src="https://raw.githubusercontent.com/Leewallace017/Leewallace017/main/banner.svg" alt="William Wallace, Solutions Architect. I dig into hard problems, weigh the alternatives, and ship what wins on performance and cost." width="100%" />
+<img src="https://raw.githubusercontent.com/wmwallace/wmwallace/main/banner.svg" alt="William Wallace, Solutions Architect. I dig into hard problems, weigh the alternatives, and ship what wins on performance and cost." width="100%" />
 
 <br />
 
