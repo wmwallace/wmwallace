@@ -84,7 +84,7 @@ A technology publication covering AI, semiconductors, EVs, energy, and markets. 
 | **Editorial** | Every article clears verification before it publishes, and published work is re-checked as its sources change |
 | **Scale** | 8 languages, full-text search, PWA, multi-channel distribution |
 | **Reach** | Structured data, news sitemaps, and search-console analysis driving discovery |
-| **Revenue** | Display and affiliate monetization, with consent management and disclosure compliance |
+| **Ad stack** | Display and affiliate placements, consent management, ads.txt ownership, and disclosure compliance |
 
 ### [williamlwallace.com](https://williamlwallace.com)
 
