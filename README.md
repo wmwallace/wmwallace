@@ -82,7 +82,7 @@ A technology publication covering AI, semiconductors, EVs, energy, and markets. 
 |---|---|
 | **Architecture** | Static and serverless on Astro, Vercel, and PostgreSQL with a self-hosted search index, chosen to run at near-zero fixed cost |
 | **Editorial** | Every article clears verification before it publishes, and published work is re-checked as its sources change |
-| **Scale** | 13 languages, full-text search, PWA, multi-channel distribution |
+| **Scale** | 8 languages, full-text search, PWA, multi-channel distribution |
 | **Reach** | Structured data, news sitemaps, and search-console analysis driving discovery |
 | **Revenue** | Display and affiliate monetization, with consent management and disclosure compliance |
 
