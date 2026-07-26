@@ -6,6 +6,24 @@
 
 ---
 
+## Building in the open
+
+### [Kelvin](https://github.com/wmwallace/Kelvin) &nbsp; [![release](https://img.shields.io/github/v/release/wmwallace/Kelvin?style=flat-square&label=release&color=00f0ff&labelColor=09090b)](https://github.com/wmwallace/Kelvin/releases) &nbsp; <sub>open source · pre-alpha · <a href="https://www.usekelvin.app">usekelvin.app</a></sub>
+
+My first open-source project: a local-AI photo editor for macOS, designed and built solo from first commit to public release. A small vision model reads the photograph on-device, then a deterministic engine turns what it saw into three or four fully-formed candidate edits you choose between. No cloud, no account, nothing uploaded. Open source under AGPL-3.0, with v0.1.0 downloadable from [usekelvin.app](https://www.usekelvin.app).
+
+| | |
+|---|---|
+| **Pipeline** | Decode once per file, keep everything interactive on a proxy, go full-resolution only on export — a 45 MP RAW stays responsive |
+| **Candidates** | Four options render as parameter swaps against a texture already on the GPU, so generating them is nearly free |
+| **Performance** | Brush-stroke rendering cut from 17.3 ms to 0.8 ms per frame |
+| **Division of labour** | The model makes categorical judgments only. Every number comes from a deterministic, unit-tested engine that can be benchmarked against baselines |
+| **Testing** | 479 tests — 390 over the core engine, 89 over the app — with CI on every pull request |
+
+<sub>Swift · SwiftUI · MLX (Qwen2.5-VL) · Core Image · Metal · SQLite</sub>
+
+---
+
 ## Shipped upstream
 
 ### [Claude Usage Tracker](https://github.com/hamed-elfayome/Claude-Usage-Tracker) &nbsp; [![stars](https://img.shields.io/github/stars/hamed-elfayome/Claude-Usage-Tracker?style=flat-square&label=stars&color=00f0ff&labelColor=09090b)](https://github.com/hamed-elfayome/Claude-Usage-Tracker)
@@ -52,24 +70,6 @@ Sleep prevention so long agent runs do not die when the Mac idles. Built on a si
 </details>
 
 <sub>Also in review: session-naming fixes for the notch UI (<a href="https://github.com/hamed-elfayome/Claude-Usage-Tracker/pull/284">#284</a>).</sub>
-
----
-
-## Building now
-
-### [Kelvin](https://github.com/wmwallace/Kelvin) &nbsp; [![release](https://img.shields.io/github/v/release/wmwallace/Kelvin?style=flat-square&label=release&color=00f0ff&labelColor=09090b)](https://github.com/wmwallace/Kelvin/releases) &nbsp; <sub>open source · pre-alpha · <a href="https://www.usekelvin.app">usekelvin.app</a></sub>
-
-A local-AI photo editor for macOS, designed and built solo from first commit to public release. A small vision model reads the photograph on-device, then a deterministic engine turns what it saw into three or four fully-formed candidate edits you choose between. No cloud, no account, nothing uploaded. Open source under AGPL-3.0, with v0.1.0 downloadable from [usekelvin.app](https://www.usekelvin.app).
-
-| | |
-|---|---|
-| **Pipeline** | Decode once per file, keep everything interactive on a proxy, go full-resolution only on export — a 45 MP RAW stays responsive |
-| **Candidates** | Four options render as parameter swaps against a texture already on the GPU, so generating them is nearly free |
-| **Performance** | Brush-stroke rendering cut from 17.3 ms to 0.8 ms per frame |
-| **Division of labour** | The model makes categorical judgments only. Every number comes from a deterministic, unit-tested engine that can be benchmarked against baselines |
-| **Testing** | 479 tests — 390 over the core engine, 89 over the app — with CI on every pull request |
-
-<sub>Swift · SwiftUI · MLX (Qwen2.5-VL) · Core Image · Metal · SQLite</sub>
 
 ---
 
