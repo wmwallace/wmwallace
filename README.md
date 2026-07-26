@@ -24,6 +24,26 @@ My first open-source project: a local-AI photo editor for macOS, designed and bu
 
 ---
 
+## Built and running
+
+### [Trendy Tech Tribe](https://trendytechtribe.com)
+
+A technology publication covering AI, semiconductors, EVs, energy, and markets. Designed, built, and operated solo. The site is the surface; the engineering is everything holding it up.
+
+| | |
+|---|---|
+| **Architecture** | Static and serverless on Astro, Vercel, and PostgreSQL with a self-hosted search index, chosen to run at near-zero fixed cost |
+| **Editorial** | Every article clears verification before it publishes, and published work is re-checked as its sources change |
+| **Scale** | 8 languages, full-text search, PWA, multi-channel distribution |
+| **Reach** | Structured data, news sitemaps, and search-console analysis driving discovery |
+| **Monetization** | Live display and affiliate placements, with consent management, ads.txt ownership, and disclosure compliance |
+
+### [williamlwallace.com](https://williamlwallace.com)
+
+Portfolio and résumé. Next.js 16, React 19, Tailwind 4. HMAC-signed session auth with httpOnly cookies and timing-safe comparison, serverless routes backed by Redis, and a `default-src 'self'` Content-Security-Policy with HSTS and `frame-ancestors 'none'`.
+
+---
+
 ## Shipped upstream
 
 ### [Claude Usage Tracker](https://github.com/hamed-elfayome/Claude-Usage-Tracker) &nbsp; [![stars](https://img.shields.io/github/stars/hamed-elfayome/Claude-Usage-Tracker?style=flat-square&label=stars&color=00f0ff&labelColor=09090b)](https://github.com/hamed-elfayome/Claude-Usage-Tracker)
@@ -70,26 +90,6 @@ Sleep prevention so long agent runs do not die when the Mac idles. Built on a si
 </details>
 
 <sub>Also in review: session-naming fixes for the notch UI (<a href="https://github.com/hamed-elfayome/Claude-Usage-Tracker/pull/284">#284</a>).</sub>
-
----
-
-## Built and running
-
-### [Trendy Tech Tribe](https://trendytechtribe.com)
-
-A technology publication covering AI, semiconductors, EVs, energy, and markets. Designed, built, and operated solo. The site is the surface; the engineering is everything holding it up.
-
-| | |
-|---|---|
-| **Architecture** | Static and serverless on Astro, Vercel, and PostgreSQL with a self-hosted search index, chosen to run at near-zero fixed cost |
-| **Editorial** | Every article clears verification before it publishes, and published work is re-checked as its sources change |
-| **Scale** | 8 languages, full-text search, PWA, multi-channel distribution |
-| **Reach** | Structured data, news sitemaps, and search-console analysis driving discovery |
-| **Monetization** | Live display and affiliate placements, with consent management, ads.txt ownership, and disclosure compliance |
-
-### [williamlwallace.com](https://williamlwallace.com)
-
-Portfolio and résumé. Next.js 16, React 19, Tailwind 4. HMAC-signed session auth with httpOnly cookies and timing-safe comparison, serverless routes backed by Redis, and a `default-src 'self'` Content-Security-Policy with HSTS and `frame-ancestors 'none'`.
 
 ---
 
