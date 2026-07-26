@@ -59,7 +59,7 @@ Sleep prevention so long agent runs do not die when the Mac idles. Built on a si
 
 ### [Kelvin](https://github.com/wmwallace/Kelvin) &nbsp; [![release](https://img.shields.io/github/v/release/wmwallace/Kelvin?style=flat-square&label=release&color=00f0ff&labelColor=09090b)](https://github.com/wmwallace/Kelvin/releases) &nbsp; <sub>open source · pre-alpha · <a href="https://www.usekelvin.app">usekelvin.app</a></sub>
 
-A local-AI photo editor for macOS. A small vision model reads the photograph on-device, then a deterministic engine turns what it saw into three or four fully-formed candidate edits you choose between. No cloud, no account, nothing uploaded. Open source under AGPL-3.0, with v0.1.0 downloadable from [usekelvin.app](https://www.usekelvin.app).
+A local-AI photo editor for macOS, designed and built solo from first commit to public release. A small vision model reads the photograph on-device, then a deterministic engine turns what it saw into three or four fully-formed candidate edits you choose between. No cloud, no account, nothing uploaded. Open source under AGPL-3.0, with v0.1.0 downloadable from [usekelvin.app](https://www.usekelvin.app).
 
 | | |
 |---|---|
