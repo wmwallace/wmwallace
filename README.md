@@ -103,6 +103,7 @@ Sleep prevention so long agent runs do not die when the Mac idles. Built on a si
 | **Backend** | Node.js · Serverless · PostgreSQL · Redis · Vercel |
 | **Native** | Swift · SwiftUI · AppKit · IOKit · Core Image · Metal · XCTest |
 | **On-device AI** | MLX · Vision-language models · Local inference · Evaluation harnesses |
+| **Business systems** | Power Automate · ArcGIS Online & Survey123 · SurveyMonkey · Requirements and vendor evaluation |
 | **Data** | GIS and spatial analysis · Data visualization · Analytics |
 | **Practice** | System design · Performance and cost optimization · Technical SEO · Security hardening |
 
@@ -110,7 +111,7 @@ Sleep prevention so long agent runs do not die when the Mac idles. Built on a si
 
 ## Background
 
-Six years in public health and state government. Currently leading strategic analysis and systems modernization across five statewide programs at Washington State Parks; before that, a team lead at the CDC's Seattle Quarantine Station through the COVID-19 response.
+Six years in public health and state government. In the Washington State Parks Boating Program I write requirements, evaluate vendors and tools, build the workflows the program runs on, and direct strategic analysis across its five statewide boating programs. Before that, I was a team lead at the CDC's Seattle Quarantine Station through the COVID-19 response.
 
 That work is where I learned to take an operational mess apart and rebuild it as something that holds.
 
