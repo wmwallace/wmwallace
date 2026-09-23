@@ -10,17 +10,18 @@
 
 ### [Kelvin](https://github.com/wmwallace/Kelvin) &nbsp; [![release](https://img.shields.io/github/v/release/wmwallace/Kelvin?style=flat-square&label=release&color=00f0ff&labelColor=09090b)](https://github.com/wmwallace/Kelvin/releases) &nbsp; <sub>open source · pre-alpha · <a href="https://www.usekelvin.app">usekelvin.app</a></sub>
 
-My first open-source project: a local-AI photo editor for macOS, designed and built solo from first commit to public release. A small vision model reads the photograph on-device, then a deterministic engine turns what it saw into three or four fully-formed candidate edits you choose between. No cloud, no account, nothing uploaded. Open source under AGPL-3.0, with signed, notarized builds downloadable from [usekelvin.app](https://www.usekelvin.app).
+My first open-source project: an on-device photo editor for Mac, with an iPhone app in progress, designed and built solo from first commit to public release. Apple's Vision framework reads the photograph on-device, then a deterministic engine turns what it saw into three or four fully-formed candidate edits you choose between. No cloud, no account, nothing uploaded. Open source under AGPL-3.0, with signed, notarized builds downloadable from [usekelvin.app](https://www.usekelvin.app).
 
 | | |
 |---|---|
 | **Pipeline** | Decode once per file, keep everything interactive on a proxy, go full-resolution only on export — a 45 MP RAW stays responsive |
 | **Candidates** | Four options render as parameter swaps against a texture already on the GPU, so generating them is nearly free |
 | **Performance** | Brush-stroke rendering cut from 17.3 ms to 0.8 ms per frame |
-| **Division of labour** | The model makes categorical judgments only. Every number comes from a deterministic, unit-tested engine that can be benchmarked against baselines |
+| **Division of labour** | The scene reader makes categorical judgments only. Every number comes from a deterministic, unit-tested engine that can be benchmarked against baselines |
+| **Measured, not guessed** | Every engine change is scored on two corpora of real edits. That is how a bundled 2B vision-language model was retired for Apple's Vision framework in 0.9: better on both corpora, 5 s → 0.1 s per photo, a 1.5 GB download → 5 MB |
 | **Testing** | 970+ tests, with CI on every pull request |
 
-<sub>Swift · SwiftUI · MLX (Qwen2.5-VL) · Core Image · Metal · SQLite</sub>
+<sub>Swift · SwiftUI · Core Image · Vision · Metal · XCTest</sub>
 
 ---
 
