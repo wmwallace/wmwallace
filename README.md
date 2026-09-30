@@ -19,7 +19,7 @@ My first open-source project: an on-device photo editor for Mac, with an iPhone 
 | **Performance** | Brush-stroke rendering cut from 17.3 ms to 0.8 ms per frame |
 | **Division of labour** | The scene reader makes categorical judgments only. Every number comes from a deterministic, unit-tested engine that can be benchmarked against baselines |
 | **Measured, not guessed** | Every engine change is scored on two corpora of real edits. That is how a bundled 2B vision-language model was retired for Apple's Vision framework in 0.9: better on both corpora, 5 s → 0.1 s per photo, a 1.5 GB download → 5 MB |
-| **Testing** | 970+ tests, with CI on every pull request |
+| **Testing** | 1,100+ tests, with CI on every pull request |
 
 <sub>Swift · SwiftUI · Core Image · Vision · Metal · XCTest</sub>
 
