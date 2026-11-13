@@ -77,7 +77,7 @@ The fix disables the native popover animation so the resize cannot feed the loop
 </details>
 
 <details>
-<summary><b>Keep Awake</b> &nbsp;·&nbsp; in review (<a href="https://github.com/hamed-elfayome/Claude-Usage-Tracker/pull/282">#282</a>)</summary>
+<summary><b>Keep Awake</b> &nbsp;·&nbsp; merged (<a href="https://github.com/hamed-elfayome/Claude-Usage-Tracker/pull/282">#282</a>)</summary>
 
 <br />
 
@@ -90,7 +90,7 @@ Sleep prevention so long agent runs do not die when the Mac idles. Built on a si
 
 </details>
 
-<sub>Also in review: session-naming fixes for the notch UI (<a href="https://github.com/hamed-elfayome/Claude-Usage-Tracker/pull/284">#284</a>) and immediate menu bar recoloring when the tint changes (<a href="https://github.com/hamed-elfayome/Claude-Usage-Tracker/pull/315">#315</a>).</sub>
+<sub>Also merged: session-naming fixes for the notch UI (<a href="https://github.com/hamed-elfayome/Claude-Usage-Tracker/pull/284">#284</a>), immediate menu bar recoloring when the tint changes (<a href="https://github.com/hamed-elfayome/Claude-Usage-Tracker/pull/315">#315</a>), a command-hook install fix (<a href="https://github.com/hamed-elfayome/Claude-Usage-Tracker/pull/343">#343</a>), and a single-instance guard on launch (<a href="https://github.com/hamed-elfayome/Claude-Usage-Tracker/pull/344">#344</a>).</sub>
 
 ---
 
@@ -111,7 +111,7 @@ Sleep prevention so long agent runs do not die when the Mac idles. Built on a si
 
 ## Background
 
-Six years in public health and state government. In the Washington State Parks Boating Program I write requirements, evaluate vendors and tools, build the workflows the program runs on, and direct strategic analysis across its five statewide boating programs. Before that, I was a team lead at the CDC's Seattle Quarantine Station through the COVID-19 response.
+Six years in public health and state government. In the Washington State Parks Boating Program I lead strategy and analysis for four statewide programs, write requirements, evaluate vendors and tools, and build the workflows the programs run on. Before that, I was a shift lead at the CDC's Seattle Quarantine Station through the COVID-19 response.
 
 That work is where I learned to take an operational mess apart and rebuild it as something that holds.
 
